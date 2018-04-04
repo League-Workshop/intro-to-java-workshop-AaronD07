@@ -8,16 +8,68 @@ import com.sun.speech.freetts.VoiceManager;
 public class SpeakAndSpell {
 
 	public static void main(String[] args) {
-		// 1. Use the speak method to say the word. "e.g. spell mandlebrot"
+	
+ speak("Spell mandlebrot");
 
-		// 2. Catch the user's answer in a String
-
-		// 3. If the user spelled the word correctly, speak "correct"
-
-		// 4. Otherwise say "wrong"
-
-		// 5. repeat the process for other words
+String input = JOptionPane.showInputDialog("Spell");
 		
+if(input.equals("mandlebrot")) {
+	speak("Correct");
+	
+}
+else {
+	speak("Incorrect");
+	
+}
+speak("Spell quincunx");
+
+	 String word = JOptionPane.showInputDialog("Spell");
+	 		
+	 if(word.equals("quincunx")) {
+	 	speak("Correct");
+	 	
+	 }
+	 else {
+	 	speak("Incorrect");
+
+
+	
+	 }
+	 speak("Spell bewildering");
+
+	 String vocab = JOptionPane.showInputDialog("Spell");
+	 		
+	 if(vocab.equals("bewildering")) {
+	 	speak("Correct");
+	 	
+	 }
+	 else {
+	 	speak("Incorrect"); 
+	 	}
+	 speak("Spell broughtwurst");
+
+	 String drow = JOptionPane.showInputDialog("Spell");
+	 		
+	 if(drow.equals("broughtwurst")) {
+	 	speak("Correct");
+	 	
+	 }
+	 else {
+	 	speak("Incorrect");
+	 }
+	 speak("Spell beguile");
+
+	 String person = JOptionPane.showInputDialog("Spell");
+	 		
+	 if(person.equals("beguile")) {
+	 	speak("Correct");
+	 	
+	 }
+	 else {
+	 	speak("Incorrect");
+	 }
+
+
 	}
 
 	static void speak(String words) {

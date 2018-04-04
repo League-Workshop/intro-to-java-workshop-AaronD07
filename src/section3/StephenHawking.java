@@ -5,7 +5,14 @@ import com.sun.speech.freetts.Voice;
 import com.sun.speech.freetts.VoiceManager;
 
 public class StephenHawking {
-	
+	public static void main(String[] args) {
+		for (int i = 0; i < 25; i++) {
+			
+		
+		String input = JOptionPane.showInputDialog("Please give me a sentence?");
+		speak(input);
+	}
+	}
 	// 1. make a main method and put steps 2, 3 & 4 inside it
 	
 	// 4. Use a for loop to repeat steps #2 and #3, a lot of times
