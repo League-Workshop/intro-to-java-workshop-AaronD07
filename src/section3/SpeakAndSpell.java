@@ -46,11 +46,11 @@ speak("Spell quincunx");
 	 else {
 	 	speak("Incorrect"); 
 	 	}
-	 speak("Spell broughtwurst");
+	 speak("Spell bratwurst");
 
 	 String drow = JOptionPane.showInputDialog("Spell");
 	 		
-	 if(drow.equals("broughtwurst")) {
+	 if(drow.equals("bratwurst")) {
 	 	speak("Correct");
 	 	
 	 }
